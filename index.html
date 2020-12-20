@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinball</title>
+
+    <style>
+        #gameScreen{
+            border: 5px solid black;
+            background-color: aquamarine;
+           
+        }
+
+        body {
+            
+            display: flex;
+            justify-content: center;
+           
+            background-color: black;
+        }
+
+        img {
+            display: none;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <img id="ballimg" src='assets/pixel_ball_test_by_rongs1234_d7g8n34-fullview.png'>
+    <img id="bumper_20_img" src='assets/bumper20.png'>
+    <img id="bumper_30_img" src='assets/bumper30.png'> 
+    <img id="spring_img" src='assets/spring.png'>
+    <img id="fliphandleft" src='assets/fliphandleft.png'>
+    <img id="fliphandright" src='assets/fliphandright.png'>
+
+
+    <canvas id="gameScreen", width='450', height='650'></canvas>
+    <script type="module" src="index.js"></script>
+
+</body>
+</html>
