@@ -1,6 +1,6 @@
 # pinball
 
-This game is made using vanilla JavaScript(no third party libraries), HTML and CSS.
+This game is made using vanilla JavaScript, HTML and CSS.
 
 This game works but the collision detection with the play area is sloppy(we are figuring out). We used pixel detection method to implement the collison with the play area(excludes the paddles). This implementation is not rigorous and can be considered rudimentary as of now.
 
